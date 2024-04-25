@@ -1,0 +1,60 @@
+a {
+    color: black;
+    width: 50%;
+    margin-right: 10px;
+    text-decoration: none;
+}
+
+body {
+    margin: 70px;
+    background-image: url(https://media.istockphoto.com/id/1338319555/vector/smooth-blend-rainbow-glow-abstract-background.jpg?s=612x612&w=0&k=20&c=LPA20OPGWr99oB3pNT7RABEodDZa24Yd3J8aIaVUq4o=);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-size: 15px;
+    text-align: center;
+    font-family: sans-serif;
+}
+
+img {
+    overflow: hidden;
+    border-radius: 50%;
+    border-style: solid;
+    border-color: aliceblue;
+    border-width: thick;
+}
+
+.typo {
+    background-color: transparent;
+    color: black;
+    border-style: none none solid none;
+    border-color: black;
+    border-width: thin;
+}
+
+::placeholder {
+    color: black;
+    opacity: 70%;
+    text-align: left;
+}
+
+.click {
+    background-color: black;
+    color: white;
+    width: 150px;
+    padding: 5px 10px;
+    margin: 5px;
+    border-style: none inset inset none;
+    border-color: white;
+}
+
+.image {
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+#forgot{
+    font-weight: lighter;
+    text-decoration:underline;
+    margin: 0%;
+}
+
