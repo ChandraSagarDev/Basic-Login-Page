@@ -1,18 +1,27 @@
 a {
     color: black;
-    width: 50%;
-    margin-right: 10px;
+    margin: 0 15px;
     text-decoration: none;
 }
 
 body {
-    margin: 70px;
+    margin: 58px;
     background-image: url(https://media.istockphoto.com/id/1338319555/vector/smooth-blend-rainbow-glow-abstract-background.jpg?s=612x612&w=0&k=20&c=LPA20OPGWr99oB3pNT7RABEodDZa24Yd3J8aIaVUq4o=);
     background-repeat: no-repeat;
     background-size: cover;
+    /* Ensures the background covers the entire screen */
+    background-position: center;
+    /* Centers the background image */
     font-size: 15px;
     text-align: center;
     font-family: sans-serif;
+}
+
+.Nav {
+    display: flex;
+    justify-content: center;
+    flex-wrap: nowrap;
+    margin-bottom: 20px;
 }
 
 img {
@@ -21,6 +30,11 @@ img {
     border-style: solid;
     border-color: aliceblue;
     border-width: thick;
+}
+
+.image {
+    padding: 10px;
+    margin-bottom: 10px;
 }
 
 .typo {
@@ -47,14 +61,33 @@ img {
     border-color: white;
 }
 
-.image {
-    padding: 10px;
-    margin-bottom: 10px;
-}
 
-#forgot{
+#forgot,
+#signUp {
     font-weight: lighter;
-    text-decoration:underline;
+    text-decoration: underline;
     margin: 0%;
 }
 
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .Nav a {
+        margin: 0 10px;
+    }
+
+    .image img {
+        width: 150px;
+        height: 150px;
+    }
+}
+
+@media (max-width: 480px) {
+    .Nav a {
+        margin: 0 5px;
+    }
+
+    .image img {
+        width: 100px;
+        height: 100px;
+    }
+}
